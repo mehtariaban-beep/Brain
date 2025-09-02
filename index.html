@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دانلود برنامه نقشه‌راه ۳۰ روزه رفع مه مغزی</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#2563eb">
+    <style>
+        * { box-sizing: border-box; margin:0; padding:0; font-family:-apple-system, BlinkMacSystemFont, 'Vazir', 'Segoe UI', Roboto, sans-serif; }
+        body { background: linear-gradient(135deg, #f0f7ff 0%, #e6f0ff 100%); color:#1a365d; line-height:1.6; padding:20px; max-width:800px; margin:0 auto; }
+        .container { background: rgba(255,255,255,0.95); border-radius:20px; box-shadow:0 10px 30px rgba(0,0,0,0.1); padding:30px; margin:20px 0; }
+        header { text-align:center; margin-bottom:30px; }
+        .logo { width:100px; height:100px; margin:0 auto 20px; background: linear-gradient(135deg, #2563eb 0%, #6c8cff 100%); border-radius:20px; display:flex; align-items:center; justify-content:center; box-shadow:0 5px 15px rgba(37,99,235,0.3); }
+        .logo svg { width:60px; height:60px; }
+        h1 { font-size:24px; margin-bottom:10px; color:#2563eb; }
+        h2 { font-size:20px; margin:25px 0 15px; color:#2d3748; border-right:4px solid #2563eb; padding-right:10px; }
+        p { margin-bottom:15px; font-size:16px; color:#4a5568; }
+        .features { display:grid; grid-template-columns:repeat(2,1fr); gap:15px; margin:20px 0; }
+        .feature { background:#f7faff; padding:15px; border-radius:12px; text-align:center; box-shadow:0 4px 6px rgba(0,0,0,0.05); }
+        .feature-icon { font-size:24px; margin-bottom:10px; color:#2563eb; }
+        .iphone-mockup { width:300px; height:600px; margin:30px auto; background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600"><rect x="15" y="15" width="270" height="570" rx="40" fill="%23ffffff" stroke="%23e2e8f0" stroke-width="2"/><rect x="40" y="40" width="220" height="520" rx="5" fill="%23f7fafc"/><rect x="135" y="10" width="30" height="5" rx="2" fill="%23e2e8f0"/><circle cx="150" cy="575" r="20" fill="%23e2e8f0"/></svg>') no-repeat center center; background-size:contain; position:relative; }
+        .iphone-screen { position:absolute; top:60px; left:50%; transform:translateX(-50%); width:220px; height:475px; background: linear-gradient(135deg, #f0f7ff 0%, #e6f0ff 100%); border-radius:5px; overflow:hidden; padding:15px; display:flex; flex-direction:column; }
+        .screen-header { display:flex; align-items:center; margin-bottom:15px; }
+        .screen-logo { width:40px; height:40px; background: linear-gradient(135deg, #2563eb 0%, #6c8cff 100%); border-radius:10px; margin-left:10px; }
+        .screen-content { flex:1; background:white; border-radius:15px; padding:15px; box-shadow:0 4px 10px rgba(0,0,0,0.05); }
+        .progress-bar { height:8px; background:#e2e8f0; border-radius:4px; overflow:hidden; margin:10px 0; }
+        .progress-fill { height:100%; background: linear-gradient(90deg, #7cdbb6 0%, #2563eb 100%); border-radius:4px; width:0%; transition: width 0.3s ease; }
+        .task-item { display:flex; align-items:center; margin:10px 0; cursor:pointer; }
+        .task-checkbox { width:20px; height:20px; border:2px solid #cbd5e0; border-radius:5px; margin-left:10px; position:relative; }
+        .task-text { font-size:14px; }
+        .completed .task-text { text-decoration: line-through; color:#a0aec0; }
+        .completed .task-checkbox { background:#2563eb; border-color:#2563eb; }
+        .completed .task-checkbox::after { content:"✓"; color:white; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:12px; }
+        .download-section { text-align:center; margin:30px 0; }
+        .download-btn { display:inline-block; background:linear-gradient(135deg, #2563eb 0%, #6c8cff 100%); color:white; padding:15px 30px; border-radius:50px; text-decoration:none; font-weight:bold; font-size:18px; box-shadow:0 5px 15px rgba(37,99,235,0.3); transition:all 0.3s ease; margin:10px 0; }
+        .download-btn:hover { transform:translateY(-3px); box-shadow:0 8px 20px rgba(37,99,235,0.4); }
+        .instructions { background:#f8fafc; padding:20px; border-radius:15px; margin:20px 0; }
+        .instructions ol { padding-right:20px; margin:15px 0; }
+        .instructions li { margin-bottom:10px; }
+        footer { text-align:center; margin-top:40px; color:#718096; font-size:14px; }
+        @media (max-width:768px) { .features { grid-template-columns:1fr; } .iphone-mockup { width:250px; height:500px; } .iphone-screen { width:185px; height:395px; } }
+    </style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="white"><path d="M20 2c-5 0-9 4-9 9 0 3 1 5 1 7 0 3-2 5-5 5"/><path d="M28 2c5 0 9 4 9 9 0 3-1 5-1 7 0 3 2 5 5 5"/><path d="M13 30c2-1 6-3 11-3s9 2 11 3" opacity="0.9"/></svg></div>
+<h1>نقشه‌راه ۳۰ روزه رفع مه مغزی</h1>
+<p>برنامه‌ای برای بهبود تمرکز و وضوح ذهنی</p>
+</header>
+
+<div class="container">
+<h2>برنامه کامل و بهینه‌شده برای iPhone 13</h2>
+<p>این برنامه به طور ویژه برای iPhone 13 بهینه‌سازی شده و شامل تمامی فایل‌های لازم برای نصب و استفاده آفلاین می‌باشد.</p>
+
+<div class="iphone-mockup">
+<div class="iphone-screen">
+<div class="screen-header">
+<div class="screen-logo"></div>
+<div>
+<h3 style="font-size:14px; margin:0;">رفع مه مغزی</h3>
+<p style="font-size:12px; margin:0; color:#718096;">روز ۱۲ از ۳۰</p>
+</div>
+</div>
+
+<div class="screen-content">
+<h4 style="font-size:14px; margin-bottom:10px;">پیشرفت امروز</h4>
+<div class="progress-bar"><div class="progress-fill"></div></div>
+<p style="font-size:12px; text-align:left; color:#718096;">۰% تکمیل شده</p>
+
+<h4 style="font-size:14px; margin:15px 0 10px;">فعالیت‌های امروز</h4>
+<div class="task-item"><div class="task-checkbox"></div><div class="task-text">۵ دقیقه مدیتیشن</div></div>
+<div class="task-item"><div class="task-checkbox"></div><div class="task-text">نوشیدن آب کافی</div></div>
+<div class="task-item"><div class="task-checkbox"></div><div class="task-text">۱۵ دقیقه مطالعه</div></div>
+<div class="task-item"><div class="task-checkbox"></div><div class="task-text">یادداشت‌برداری</div></div>
+</div>
+</div>
+</div>
+
+<h2>ویژگی‌های برنامه</h2>
+<div class="features">
+<div class="feature"><div class="feature-icon">📱</div><h3>بهینه‌شده برای iOS</h3><p>تجربه کاربری عالی روی iPhone 13</p></div>
+<div class="feature"><div class="feature-icon">⚡</div><h3>سریع و سبک</h3><p>بارگذاری سریع حتی با اتصال ضعیف</p></div>
+<div class="feature"><div class="feature-icon">📊</div><h3>پیگیری پیشرفت</h3><p>نمایش گرافیکی پیشرفت روزانه</p></div>
+<div class="feature"><div class="feature-icon">🔔</div><h3>یادآوری هوشمند</h3><p>اعلان‌های شخصی‌سازی شده</p></div>
+</div>
+
+<div class="download-section">
+<h2>دانلود فایل کامل برنامه</h2>
+<p>فایل ZIP شامل تمامی منابع و فایل‌های لازم برای نصب برنامه می‌باشد.</p>
+<a href="brainfog-app-iphone-13.zip" class="download-btn" id="downloadBtn">دانلود فایل ZIP (2.1MB)</a>
+<p style="font-size:14px; color:#718096;">نسخه ۱.۰.۰ - بهینه‌شده برای iOS</p>
+</div>
+
+<div class="instructions">
+<h2>راهنمای نصب</h2>
+<ol>
+<li>فایل ZIP را دانلود کنید</li>
+<li>فایل را از حالت فشرده خارج کنید</li>
+<li>فایل index.html را در مرورگر Safari باز کنید</li>
+<li>روی دکمه "Share" ضربه بزنید</li>
+<li>"Add to Home Screen" را انتخاب کنید</li>
+<li>برنامه اکنون مانند یک اپلیکیشن native قابل استفاده است</li>
+</ol>
+</div>
+</div>
+
+<footer>
+<p>© ۱۴۰۳ - برنامه نقشه‌راه ۳۰ روزه رفع مه مغزی</p>
+<p>این برنامه به صورت Progressive Web App توسعه یافته و نیاز به نصب از طریق اپ استور ندارد.</p>
+</footer>
+</div>
+
+<script>
+if('serviceWorker' in navigator){window.addEventListener('load',()=>{navigator.serviceWorker.register('service-worker.js').then(reg=>console.log('Service Worker ثبت شد',reg)).catch(err=>console.log('خطا در ثبت Service Worker',err));});}
+
+const tasks=document.querySelectorAll('.task-item');
+tasks.forEach((item,index)=>{if(localStorage.getItem('task-'+index)==='completed')item.classList.add('completed');item.addEventListener('click',()=>{item.classList.toggle('completed');if(item.classList.contains('completed'))localStorage.setItem('task-'+index,'completed');else localStorage.removeItem('task-'+index);updateProgress();});});
+function updateProgress(){const completed=document.querySelectorAll('.task-item.completed').length;const total=tasks.length;const percent=Math.round((completed/total)*100);document.querySelector('.progress-fill').style.width=percent+'%';document.querySelector('.progress-fill').nextElementSibling.textContent=percent+'% تکمیل شده';}
+updateProgress();
+</script>
+</body>
+</html>
